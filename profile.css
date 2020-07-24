@@ -1,54 +1,60 @@
-#bio-card{
-	border: 1px solid black;
-	height:35vh;
-	display: flex;
-	flex-direction: row;
-}
+
 #profile-image{
-	height: inherit;
+    height: 20%git ;
+    margin: auto;
 	width: 20%;
 	border: 1px solid white;
 }
 #profile-image img{
 	height: 100%;
-	width: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+div#profile-info {
+    display: flex;
+    flex-direction: row;
 }
 #profile-details{
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    margin-top: 5%;
 }
 #heroes-name,#heroes-full-name,#alter-egos,#place-of-birth,#publisher,#alignment{
-	width: 35vw;
-	height: 10vh;
-	font-size: 1.2rem;
-	font-family: sans-serif;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin-left: 120%;
-	background-color: grey;
-	border-bottom: 2px solid white;
+    width: 50vw;
+    height: 10vh;
+    padding: 10px;
+    font-size: x-large;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 120%; */
+    background-color: cadetblue;
+    color: aliceblue;
+    border-bottom: 2px solid white;
 }
 #powerstats{
-	height: 50vh;
+	height: auto;
 	width: 30vw;
 	display: flex;
 	flex-direction: column;
 	/*border: 1px solid red;*/
-	margin-left: 35%;
-	margin-top: 5%;
+	margin-left: 5%;
+	margin-top: 3%;
 }
 #intelligence,#strength,#speed,#durability,#power,#combat{
-	width: inherit;
-	height: 5vh;
-	font-size: 1.2rem;
+	width: 50vw;
+    height: 10vh;
+    padding: 10px;
+	font-size: x-large;
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: grey;
+    background-color:cadetblue;
+    color:aliceblue;
 	border-bottom: 2px solid white;
 
 }

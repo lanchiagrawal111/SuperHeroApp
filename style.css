@@ -7,10 +7,10 @@ body{
 
 /*style for top page image*/
 #page-image{
-		height: 40vh;
+		height: 45vh;
 
 
-		background-image: url(https://wallpaperaccess.com/full/247074.jpg);
+		background-image: url('./superhero1.jpg');
 		background-position: top;
 		background-attachment: fixed;
 		background-size: cover;
