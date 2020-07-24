@@ -1,0 +1,61 @@
+#bio-card{
+	border: 1px solid black;
+	height:35vh;
+	display: flex;
+	flex-direction: row;
+}
+#profile-image{
+	height: inherit;
+	width: 20%;
+	border: 1px solid white;
+}
+#profile-image img{
+	height: 100%;
+	width: 100%;
+}
+#profile-details{
+	display: flex;
+	flex-direction: column;
+}
+#heroes-name,#heroes-full-name,#alter-egos,#place-of-birth,#publisher,#alignment{
+	width: 35vw;
+	height: 10vh;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 120%;
+	background-color: grey;
+	border-bottom: 2px solid white;
+}
+#powerstats{
+	height: 50vh;
+	width: 30vw;
+	display: flex;
+	flex-direction: column;
+	/*border: 1px solid red;*/
+	margin-left: 35%;
+	margin-top: 5%;
+}
+#intelligence,#strength,#speed,#durability,#power,#combat{
+	width: inherit;
+	height: 5vh;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: grey;
+	border-bottom: 2px solid white;
+
+}
+
+#powerstats-heading{
+	font-size: 1.5rem;
+	font-family: serif;
+	font-weight: 900;
+	text-align: center;
+}
