@@ -1,27 +1,26 @@
-
-#profile-image{
-    height: 20%;
-    margin: auto;
-	width: 20%;
-	border: 1px solid white;
+body{
+	margin:0;
+    
 }
-#profile-image img{
-	height: 100%;
-    width: 100%;
-    border-radius: 50%;
-}
-div#profile-info {
+#profile {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
 }
-#profile-details{
-	display: flex;
-    flex-direction: column;
-    margin-top: 5%;
+#profile-image{
+	width: 28%;
+}
+#profile-image img{
+    width: 100%;
+    border-radius: 10%;
+}
+div#profile-info {
+   width: 60%;
 }
 #heroes-name,#heroes-full-name,#alter-egos,#place-of-birth,#publisher,#alignment{
-    width: 50vw;
-    height: 10vh;
+    height: 8vh;
     padding: 10px;
     font-size: x-large;
     font-family: sans-serif;
@@ -30,22 +29,13 @@ div#profile-info {
     justify-content: space-between;
     align-items: center;
     /* margin-left: 120%; */
-    background-color: cadetblue;
-    color: aliceblue;
+    background-color: darkslategray;
+    color: cornsilk;
     border-bottom: 2px solid white;
-}
-#powerstats{
-	height: auto;
-	width: 30vw;
-	display: flex;
-	flex-direction: column;
-	/*border: 1px solid red;*/
-	margin-left: 5%;
-	margin-top: 3%;
+    opacity: 0.9;
 }
 #intelligence,#strength,#speed,#durability,#power,#combat{
-	width: 50vw;
-    height: 10vh;
+    height: 8vh;
     padding: 10px;
 	font-size: x-large;
 	font-family: sans-serif;
@@ -53,15 +43,15 @@ div#profile-info {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-    background-color:cadetblue;
-    color:aliceblue;
+    background-color:darkslategray;
+    color:cornsilk;
 	border-bottom: 2px solid white;
-
+    opacity: 0.9;
 }
 
 #powerstats-heading{
 	font-size: 1.5rem;
-	font-family: serif;
 	font-weight: 900;
 	text-align: center;
+  
 }

@@ -12,21 +12,21 @@ function myFunction() {
         document.getElementById("search-list").innerHTML = "";
         for (let i = 0; i < parse.results.length; i++) {
             // creating divs of returned response and append it to parent class
-            let div = document.createElement("div");
-            div.setAttribute("class", "myDiv");
-            div.innerHTML = parse.results[i].name;
+            // let div = document.createElement("div");
+            // div.setAttribute("class", "myDiv");
+            // div.innerHTML = parse.results[i].name;
             // "+this+","+parse.results[i].id+")"
             let div1 = document.createElement("div");
             div1.setAttribute("class", "favourite");
             div1.setAttribute("onclick", "favouriteClick(" + parse.results[i].id + ")");
             let image = document.createElement("img");
-            image.setAttribute("src", "https://cdn2.iconfinder.com/data/icons/pittogrammi/142/80-512.png");
+            image.setAttribute("src", "https://icon-library.com/images/favorites-icon/favorites-icon-10.jpg");
             div1.appendChild(image);
             let a = document.createElement("a");
             a.setAttribute("href", "profile.html");
             a.setAttribute("onclick", "profile(" + parse.results[i].id + ")");
-            a.appendChild(div);
-
+            // a.appendChild(div);
+            a.innerHTML = parse.results[i].name; 
             let singleList = document.createElement("div");
             singleList.setAttribute("class", "singleList");
             singleList.appendChild(a);
